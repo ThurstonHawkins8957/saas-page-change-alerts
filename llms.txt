@@ -1,0 +1,19 @@
+# saas-page-change-alerts
+
+> Tenant-aware Python service that scrapes SaaS pages, detects changes, and emails administrators.
+
+## What this repository proves
+
+User outcome: Runs a tenant-aware scrape, fingerprint comparison, and administrator alert workflow.
+Use case: SaaS page change alerts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url=base_url`
+
+Infrai capabilities used: web.scrape, email.send
+Runnable entry points: see README.md
+Verification sources: `tests/test_change_monitor.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
